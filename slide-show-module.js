@@ -30,7 +30,7 @@ module.exports = {
       img.style.display = "none";
       img.setAttribute("width", width || 380);
       img.setAttribute("height", height || 380);
-      img.setAttribute("alt", AltArray[index] || "broken-img");
+      img.setAttribute("alt", imgAlt[index] || "broken-img");
       document.getElementById(className || "images-container").appendChild(img)
 
     }
