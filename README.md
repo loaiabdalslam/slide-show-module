@@ -24,3 +24,6 @@ This module takes an array of images links and injects them into any "div" you c
   6-Width of the image ---- "380".
   7-Height of the image ---- "380".
   8-Time of the inerval in Milliseconds ---- 2000.
+  
+  
+  Example for calling the function : slideMeBabe(links, 0, 2,"divs","coats" ,380, 380, null)
